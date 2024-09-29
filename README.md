@@ -8,12 +8,7 @@ This script is a set of **Pentaho transformations (v9)** that monitor a director
 The expected files are **safetensors (LoRA)** and should follow this naming convention:
 CF.AnimeName-CharacterName.XXXXX
 
-- `CF` is a fixed prefix.
-CF : Character Female 
-CM : Character Male
-ENV : environment
-STYLE : for styles
-whateveryouwant : whateveryouwant ^^ 
+- `CF` is a fixed prefix (example CF : Character Female ; CM : Character Male)
 - `AnimeName` is the name of the anime.
 - `CharacterName` is the name of the character.
 - `XXXXX` is a number corresponding to the model ID on the Civitai website.
